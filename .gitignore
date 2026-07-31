@@ -1,0 +1,12 @@
+
+__pycache__/
+models1/
+.vscode/
+.env
+*.pyc
+.streamlit/
+.toml
+.venv/
+dataset/
+
+backend/logs/ats_scorer.log
