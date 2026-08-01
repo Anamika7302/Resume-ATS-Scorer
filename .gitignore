@@ -10,3 +10,4 @@ models1/
 dataset/
 
 backend/logs/ats_scorer.log
+backend/core/config.py
