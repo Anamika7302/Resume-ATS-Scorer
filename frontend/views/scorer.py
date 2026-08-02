@@ -6,6 +6,8 @@ import streamlit as st
 
 from frontend.services import api_client
 from frontend.components.dashboard import display_results_dashboard
+from frontend.services import * 
+from backend.services.resume_analyzer import analyze_full_resume
 
 
 def _read_jd(jd_file, jd_text: str) -> str:
